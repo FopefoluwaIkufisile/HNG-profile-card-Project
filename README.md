@@ -3,7 +3,7 @@
 This is a simple **Profile Card** project built with **HTML**, **CSS**, and **JavaScript**. The profile card showcases basic user information such as name, job title, bio, social media links, and current time in UTC.
 
 ### Access:
-- **Live Website**: [Profile Card](fopefoluwaikufisile.github.io/HNG-profile-card-Project/)
+- **Live Website**: [Profile Card](https://fopefoluwaikufisile.github.io/HNG-profile-card-Project/)
 
 ## Features
 - **Profile Information**: Displays name, job title, and short bio.
