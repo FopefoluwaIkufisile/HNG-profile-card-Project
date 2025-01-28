@@ -76,15 +76,18 @@ body{
 @media(max-width: 795px){
     body{
         display: block;
+        background-color: rgb(64, 64, 64);
     }
     .profile-card-container{
         border: none;
         display: block;
+        color: white;
     }
     .profile-card{
         display: flex;
         flex-direction: column;
         height: auto;
+        background-color: rgb(247, 86, 86);
     }
     .image-container{
         width: 100%;
