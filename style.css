@@ -81,7 +81,7 @@ body{
     .profile-card-container{
         border: none;
         display: block;
-        color: white;
+        border-radius: 0px;
     }
     .profile-card{
         display: flex;
