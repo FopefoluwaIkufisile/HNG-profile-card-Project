@@ -1,6 +1,6 @@
 function updateTime() {
     const now = new Date();
-    const utcTime = now.toISOString();
+    const utcTime = now;
     document.getElementById("currentTimeUTC").textContent = utcTime;
 }
 
