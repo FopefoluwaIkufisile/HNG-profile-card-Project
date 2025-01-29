@@ -104,6 +104,7 @@ body{
     .profile-details{
         width: 100%;
         height: auto;
+        padding: 0 10px;
     }
     .text-cage{
         display: flex;
