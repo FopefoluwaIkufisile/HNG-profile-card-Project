@@ -70,15 +70,18 @@ body{
     color: #000;
     text-decoration: none;
     margin: .3rem;
+    transition: all .3s linear;
 }
 .links-icons a:hover{
     cursor: pointer;
+    color: var(--header-color);
+    transform: scale(1.2);
 }
 #currentTimeUTC {
     font-size: 1rem;
     font-weight: bold;
 }
-@media(max-width: 795px){
+@media(max-width: 650px){
     body{
         display: block;
         background-color: var(--bg-color);
