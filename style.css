@@ -5,13 +5,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+:root{
+--bg-color: rgb(64, 64, 64);
+--card-cont-bg-color: #fff;
+--card-color: rgb(247, 86, 86);
+--header-color:rgba(255, 255, 255, 0.781);
+}
 body{
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(64, 64, 64);
+    background-color: var(--bg-color);
     font-family: "Poppins", serif;
 }
 .profile-card-container{
@@ -19,7 +24,7 @@ body{
     display: flex;
     padding: 10px;
     border-radius: 10px;
-    background-color: white;
+    background-color: var(--card-cont-bg-color);
     transition: .3s all linear;
 }
 .profile-card-container:hover{
@@ -29,7 +34,7 @@ body{
 .profile-card{
     display: flex;
     gap: 10px;
-    background-color: rgb(247, 86, 86);
+    background-color: var(--card-color);
 }
 .image-container{
     width: 35%;
@@ -58,7 +63,7 @@ body{
     gap: 15px;
 }
 .header{
-    color: rgba(255, 255, 255, 0.781);
+    color: var(--header-color);
 }
 .links-icons a{
     font-size: 1rem;
@@ -76,7 +81,7 @@ body{
 @media(max-width: 795px){
     body{
         display: block;
-        background-color: rgb(64, 64, 64);
+        background-color: var(--bg-color);
     }
     .profile-card-container{
         border: none;
@@ -87,7 +92,7 @@ body{
         display: flex;
         flex-direction: column;
         height: auto;
-        background-color: rgb(247, 86, 86);
+        background-color: var(--card-color);
     }
     .image-container{
         width: 100%;
